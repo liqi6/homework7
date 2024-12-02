@@ -15,4 +15,4 @@ m.add_points_from_xy(
 m.to_streamlit(height=500)
 
 df = pd.read_csv(data)
-st.table(df)
+st.dataframe(df)
